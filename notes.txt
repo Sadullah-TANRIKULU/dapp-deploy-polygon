@@ -1,0 +1,111 @@
+  491  touch index.html server.js
+  492  mkdir public/style.css
+  493  mkdir public
+  494  cd public/
+  495  touch style.css
+  496  cd ..
+  497  npm init
+  498  npm i express --save
+  499  ls
+  500  exit
+  501  npm i @truffle/hdwallet-provider
+  502  npm i dotenv --save
+  503  truffle init
+  504  npm i @truffle/hdwallet-provider --save
+  505  truffle init
+  506  npm --version
+  507  npm i -g @truffle/hdwallet-provider --save
+  508  truffle init
+  509  truffle init
+  510  npm install --force -g truffle
+  511  truffle init
+  512  truffle migrate
+  513  truffle migrate
+  514  truffle compile
+  515  truffle migrate
+  516  truffle compile
+  517  truffle migrate --network mumbai
+  518  history >> notes.txt
+
+  Compiling your contracts...
+===========================
+> Compiling .\contracts\Migrations.sol
+> Compiling .\contracts\Simple.sol
+> Compilation warnings encountered:
+
+    Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+  --> project:/contracts/Migrations.sol:12:3:
+   |
+12 |   constructor() public {
+   |   ^ (Relevant source part starts here and spans across multiple lines).
+
+
+> Artifacts written to C:\Users\Sadullah TANRIKULU\Desktop\web3-start\dapp-deploy-polygon\build\contracts     
+> Compiled successfully using:
+   - solc: 0.8.7+commit.e28d00a7.Emscripten.clang
+
+
+Starting migrations...
+======================
+> Network name:    'mumbai'
+> Network id:      80001
+> Block gas limit: 20117465 (0x132f7d9)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x899431477c8ebe01e45b340b614266adf3e860e5b8771b1966ecbf0d40ba422d
+   > Blocks: 2            Seconds: 4
+   > contract address:    0x9e5346C09F831aEf5515F27d4266eC27FC799dc0
+   > block number:        30507018
+   > block timestamp:     1672774456
+   > account:             0x50DfC645bdD23945f77Af2002CCB20B28D337b88
+   > balance:             0.19931372999588238
+   > gas used:            274508 (0x4304c)
+   > gas price:           2.500000015 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00068627000411762 ETH
+
+   Pausing for 2 confirmations...
+
+   -------------------------------
+   > confirmation number: 2 (block: 30507021)
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.00068627000411762 ETH
+
+
+2_deploy_simple.js
+==================
+
+   Deploying 'Simple'
+   ------------------
+   > transaction hash:    0xe2aae3b9e3e0db0e09acc41f62a545bed6d9cbbacaff0ed249d005d9ccb172b6
+   > Blocks: 2            Seconds: 4
+   > contract address:    0x2360C5DC296cF84444c49305E305413327308c6A
+   > block number:        30507028
+   > block timestamp:     1672774478
+   > account:             0x50DfC645bdD23945f77Af2002CCB20B28D337b88
+   > balance:             0.198844242493065455
+   > gas used:            141857 (0x22a21)
+   > gas price:           2.500000015 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000354642502127855 ETH
+
+   Pausing for 2 confirmations...
+
+   -------------------------------
+   > confirmation number: 3 (block: 30507032)
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000354642502127855 ETH
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.001040912506245475 ETH

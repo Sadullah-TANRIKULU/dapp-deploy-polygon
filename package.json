@@ -1,0 +1,26 @@
+{
+  "name": "dapp-deploy-polygon",
+  "version": "1.0.0",
+  "description": "web3 deployment practice",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "web3",
+    "blockchain",
+    "solidity",
+    "smartcontract",
+    "truffle",
+    "polygon",
+    "expressjs"
+  ],
+  "author": "Sadullah_TANRIKULU",
+  "license": "MIT",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.4",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
